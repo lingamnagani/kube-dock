@@ -55,8 +55,7 @@ jobs:
       with:
         namespace: kubeadmb6bc
         manifests: |
-          manifests/deployment-1.yml
-          manifests/service-1.yml
+          keen.yml
         images: |
           luck123.azurecr.io/kubeadm:${{ github.sha }}
         imagepullsecrets: |
