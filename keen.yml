@@ -29,6 +29,6 @@ spec:
     spec:
       containers:
       - name: keen-kontainer
-        image: "blaizek8s.azurecr.io/k8s"
+        image: "luck123.azurecr.io/kubeadm"
         ports:
         - containerPort: 80
